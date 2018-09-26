@@ -21,7 +21,7 @@
 		<key alias="published">Published</key>
 		<key alias="unPublished">Unpublished</key>
 	</area>
-	<area alias="bulkActionButtons">
+	<area alias="bulkManagerActionButtons">
 		<key alias="yes">Yes</key>
 		<key alias="back">Cancel</key>
 		<key alias="save">Save</key>
@@ -31,7 +31,7 @@
 		<key alias="search">Search</key>
 		<key alias="select">Select</key>
 	</area>
-	<area alias="bulkActionProviders">
+	<area alias="bulkManagerActionProviders">
 		<key alias="contentTreeName">Content</key>
 		<key alias="contentTitle">Manage content</key>
 		<key alias="contentIntro">Search select and modify content, use the plus and minus buttons to add/remove criteria you want to filter on.</key>
@@ -48,13 +48,13 @@
 		<key alias="memberTitle">Manage members</key>
 		<key alias="memberIntro">Search select and modify members, use the plus and minus buttons to add/remove criteria you want to filter on.</key>
 	</area>
-	<area alias="bulkActionPaging">
+	<area alias="bulkManagerPaging">
 		<key alias="info">Display records {0} - {1} of {2}</key>
 		<key alias="maxPages">of {0}</key>
 		<key alias="page">page</key>
 		<key alias="pageSize">records per page</key>
 	</area>
-	<area alias="bulkActionSave">
+	<area alias="bulkManagerSave">
 		<key alias="name">Save as</key>
 		<key alias="description">Save search criteria into the database, so you can use them directly the next time you need to query the same data.</key>
 		<key alias="nameRequired">Save as is required</key>
@@ -66,14 +66,14 @@
 		<key alias="saveThisUserDescription">When enabled this search form will only be visible for me in the tree.</key>
 		<key alias="title">Save</key>
 	</area>
-	<area alias="bulkActionAssignTemplate">
+	<area alias="bulkManagerActionAssignTemplate">
 		<key alias="buttonText">Assign template</key>
 		<key alias="intro">Select a new template you want to assign to the selected items.</key>
 		<key alias="finishedMessage">The selected template is assigned to the selected documents.</key>
 		<key alias="name">Assign template</key>
 		<key alias="statusPrefix">Assigning</key>
 	</area>
-	<area alias="bulkActionChangeDoctype">
+	<area alias="bulkManagerActionChangeDoctype">
 		<key alias="autoPublish">Auto publish</key>
 		<key alias="buttonText">Change document type</key>
 		<key alias="dialogIntro">Select a new document type for the selected document(s) and map properties to the new document type.<br/>
@@ -91,7 +91,7 @@
 		<key alias="targetProperty">Map to</key>
 		<key alias="validationError">Select a new document type first.</key>
 	</area>
-	<area alias="bulkActionCopy">
+	<area alias="bulkManagerActionCopy">
 		<key alias="buttonText">Copy</key>
 		<key alias="dialogIntro">Select where the selected items should be copied to</key>
 		<key alias="finishedMessage">The selected items are copied to the specified location</key>
@@ -103,7 +103,7 @@
 		<key alias="prefix">Copying</key>
 		<key alias="relateToOriginal">Relate copied items to original</key>
 	</area>
-	<area alias="bulkActionDelete">
+	<area alias="bulkManagerActionDelete">
 		<key alias="buttonText">Delete</key>
 		<key alias="confirmMessage">Are you sure you want to delete the selected items?</key>
 		<key alias="name">Delete</key>
@@ -112,28 +112,28 @@
 		<key alias="deletePrefix">Deleting</key>
 		<key alias="finishedMessage">The selected items are deleted.</key>
 	</area>
-	<area alias="bulkActionMemberLock">
+	<area alias="bulkManagerActionMemberLock">
 		<key alias="buttonText">Lock</key>
 		<key alias="finishedMessage">The selected members are locked.</key>
 		<key alias="intro">Lock selected members?</key>
 		<key alias="name">Lock</key>
 		<key alias="prefix">Locking</key>
 	</area>
-	<area alias="bulkActionMemberUnLock">
+	<area alias="bulkManagerActionMemberUnLock">
 		<key alias="buttonText">Unlock</key>
 		<key alias="finishedMessage">The selected members are unlocked.</key>
 		<key alias="intro">Unlock selected members?</key>
 		<key alias="name">Unlock</key>
 		<key alias="prefix">Unlocking</key>
 	</area>
-	<area alias="bulkActionMemberApprove">
+	<area alias="bulkManagerActionMemberApprove">
 		<key alias="buttonText">Approve</key>
 		<key alias="finishedMessage">The selected members are approved</key>
 		<key alias="intro">Approve all selected members?</key>
 		<key alias="name">Approve</key>
 		<key alias="statusText">Approving</key>
 	</area>
-	<area alias="bulkActionMemberAssignGroup">
+	<area alias="bulkManagerActionMemberAssignGroup">
 		<key alias="buttonText">Assign</key>
 		<key alias="name">Assign groups</key>
 		<key alias="description">Assign the selected members to member groups. Check 'Remove current assigned  groups' to remove the current assigned groups first.</key>
@@ -141,21 +141,21 @@
 		<key alias="removeCurrent">Remove current assigned  groups</key>
 		<key alias="status">Assigning</key>
 	</area>
-	<area alias="bulkActionMemberUnApprove">
+	<area alias="bulkManagerActionMemberUnApprove">
 		<key alias="buttonText">Unapprove</key>
 		<key alias="finishedMessage">The selected members are unapproved</key>
 		<key alias="intro">Unapprove all selected members?</key>
 		<key alias="name">Unapprove</key>
 		<key alias="statusText">Unapproving</key>
 	</area>
-	<area alias="bulkActionMove">
+	<area alias="bulkManagerActionMove">
 		<key alias="buttonText">Move</key>
 		<key alias="finishedMessage">The selected items are moved to the selected location.</key>
 		<key alias="intro">Press 'choose' to select a new location to move the selected items to.</key>
 		<key alias="name">Move</key>
 		<key alias="statusText">Moving</key>
 	</area>
-	<area alias="bulkActionPublish">
+	<area alias="bulkManagerActionPublish">
 		<key alias="buttonText">Publish</key>
 		<key alias="confirmMessage">Are you sure you want to publish the selected items?</key>
 		<key alias="finishedMessage">The selected documents are published.</key>
@@ -164,14 +164,14 @@
 		<key alias="name">Publish</key>
 		<key alias="statusText">Publishing</key>
 	</area>
-	<area alias="bulkActionUnPublish">
+	<area alias="bulkManagerActionUnPublish">
 		<key alias="buttonText">Unpublish</key>
 		<key alias="confirmMessage">Are you sure you want to unpublish the selected items?</key>
 		<key alias="finishedMessage">The selected documents are unpublished.</key>
 		<key alias="name">Unpublish</key>
 		<key alias="prefix">Unpublishing</key>
 	</area>
-	<area alias="queryParameters">
+	<area alias="bulkManagerQueryParameters">
 		<key alias="actions">Actions....</key>
 		<key alias="createDateSearch">Created</key>
 		<key alias="createdBySearch">Created by</key>
