@@ -31,7 +31,7 @@
 		<key alias="search">Search</key>
 		<key alias="select">Select</key>
 	</area>
-	<area alias="bulkManagerActionProviders">
+	<area alias="bulkManagerItemProviders">
 		<key alias="contentTreeName">Content</key>
 		<key alias="contentTitle">Manage content</key>
 		<key alias="contentIntro">Search select and modify content, use the plus and minus buttons to add/remove criteria you want to filter on.</key>
