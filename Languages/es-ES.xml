@@ -16,6 +16,7 @@
 		<key alias="systemColumnCaption">(system)</key>
 		<key alias="initializing">Initializing</key>
 		<key alias="overviewNoResult">No results found</key>
+		<key alias="pagingRecordsPerPage">records per page</key>
 		<key alias="resultTitle">Result</key>
 		<key alias="pending">Pending</key>
 		<key alias="published">Published</key>
