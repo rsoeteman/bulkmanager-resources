@@ -85,30 +85,32 @@
 	<area alias="bulkManagerActionChangeDoctype">
 		<key alias="autoPublish">Auto publish</key>
 		<key alias="buttonText">Change document type</key>
-		<key alias="dialogIntro">Select a new document type for the selected document(s) and map properties to the new document type.<br/>
-			<br/>
-			<strong>Please use with caution</strong> as this remove differences between the new and old ContentType that can't be matched.</key>
+		<key alias="multiDoctypeError">Your selection contains multiple document types. You can only convert from a single document type. </key>
+		<key alias="intro">Select a new document type for the selected document(s) and map properties to the new document type.</key>
 		<key alias="finishedMessage">Document type is changed for the selected document(s).</key>
 		<key alias="ignoreOption">--Ignore--</key>
 		<key alias="mapProperties">Map properties</key>
-		<key alias="mapPropertiesIntro">Map current properties to the new ones and click 'Change document type'.</key>
 		<key alias="name">Change document type</key>
-		<key alias="selectDocumentType">New document type</key>
+		<key alias="documentType">New document type</key>
 		<key alias="selectTemplate">Template</key>
 		<key alias="sourceProperty">Source property</key>
 		<key alias="statusPrefix">Changing document type </key>
 		<key alias="targetProperty">Map to</key>
 		<key alias="validationError">Select a new document type first.</key>
+		<key alias="currentProperty">Current property</key>
+		<key alias="targetProperty">Map to property</key>
+		<key alias="targetPropertyIgnoreOption">-- Ignore --</key>
 	</area>
 	<area alias="bulkManagerActionCopy">
-		<key alias="dialogIntro">Select where the selected items should be copied to</key>
+		<key alias="intro">Select where the selected items should be copied to</key>
 		<key alias="finishedMessage">The selected items are copied to the specified location</key>
 		<key alias="name">Copy</key>
 		<key alias="nrOfCopies">Number of copies</key>
 		<key alias="nrOfCopiesInvalid">Nr of copies needs to be numeric and minimal 1</key>
 		<key alias="nrOfCopiesRequired">Select the number of copies</key>
-		<key alias="pickerRequired">Select a parent</key>
-		<key alias="prefix">Copying</key>
+		<key alias="location">Location</key>
+		<key alias="locationError">Select a new location</key>
+		<key alias="statusPrefix">Copying</key>
 		<key alias="relateToOriginal">Relate copied items to original</key>
 	</area>
 	<area alias="bulkManagerActionDelete">
@@ -126,7 +128,6 @@
 		<key alias="deletePrefix">Deleting versions for </key>
 		<key alias="finishedMessage">Versions for the selected items are deleted.</key>
 	</area>
-	
 	<area alias="bulkManagerActionMemberLock">
 		<key alias="finishedMessage">The selected members are locked.</key>
 		<key alias="intro">Lock selected members?</key>
@@ -209,5 +210,9 @@
 		<key alias="searchChildTypes">Include child document types</key>
 		<key alias="includeSelf">Include selected node</key>
 		<key alias="includeGrandChildren">Include grandchildren</key>
+	</area>
+	<area alias="bulkManagerExportDialog">
+		<key alias="name">Export</key>
+		<key alias="intro">Export items from Umbraco.</key>
 	</area>
 </language>
