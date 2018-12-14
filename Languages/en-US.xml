@@ -23,6 +23,8 @@
 		<key alias="unPublished">Unpublished</key>
 		<key alias="actions">Actions</key>
 		<key alias="actionCanceled">The action is canceled. Items that were in the queue after hitting the cancel button will not be processed.</key>
+		<key alias="optionTrue">True</key>
+		<key alias="optionFalse">False</key>
 	</area>
 	<area alias="bulkManagerColumnSelector">
 		<key alias="selectColumns">Select columns</key>
@@ -49,9 +51,6 @@
 		<key alias="mediaTreeName">Media</key>
 		<key alias="mediaTitle">Manage media</key>
 		<key alias="mediaIntro">Search select and modify content, use the plus and minus buttons to add/remove criteria you want to filter on.</key>
-		<key alias="memberGroupTreeName">Member groups</key>
-		<key alias="memberGroupTitle">Manage member groups</key>
-		<key alias="memberGroupIntro">Search select and delete members groups, use the plus and minus buttons to add/remove criteria you want to filter on.</key>
 		<key alias="memberTreeName">Members</key>
 		<key alias="memberTitle">Manage members</key>
 		<key alias="memberIntro">Search select and modify members, use the plus and minus buttons to add/remove criteria you want to filter on.</key>
@@ -115,9 +114,11 @@
 	</area>
 	<area alias="bulkManagerActionDelete">
 		<key alias="name">Delete</key>
+		<key alias="introWithoutPermanent">Click 'ok' to delete the selected items.</key>
 		<key alias="intro">Click 'ok' to delete the selected items. When permanent delete is enabled items will be removed instead of added to the recyle bin.</key>
+		<key alias="introWithoutPermanent">Click 'ok' to delete the selected items.</key>
 		<key alias="permanentDeleteText">Permanent delete</key>
-		<key alias="deletePrefix">Deleting</key>
+		<key alias="prefix">Deleting</key>
 		<key alias="finishedMessage">The selected items are deleted.</key>
 	</area>
 	<area alias="bulkManagerActionDeleteVersions">
@@ -146,25 +147,26 @@
 		<key alias="finishedMessage">The selected members are approved</key>
 		<key alias="intro">Approve all selected members?</key>
 		<key alias="name">Approve</key>
-		<key alias="statusText">Approving</key>
+		<key alias="prefix">Approving</key>
 	</area>
 	<area alias="bulkManagerActionMemberAssignGroup">
 		<key alias="buttonText">Assign</key>
 		<key alias="name">Assign groups</key>
 		<key alias="description">Assign the selected members to member groups. Check 'Remove current assigned  groups' to remove the current assigned groups first.</key>
 		<key alias="finishedMessage">The selected members have been (re)assigned to the selected groups</key>
+		<key alias="groups">Groups</key>
 		<key alias="removeCurrent">Remove current assigned  groups</key>
-		<key alias="status">Assigning</key>
+		<key alias="groupsError">Select at least one group</key>
+		<key alias="prefix">Assigning</key>
 	</area>
 	<area alias="bulkManagerActionMemberUnApprove">
 		<key alias="buttonText">Unapprove</key>
 		<key alias="finishedMessage">The selected members are unapproved</key>
 		<key alias="intro">Unapprove all selected members?</key>
 		<key alias="name">Unapprove</key>
-		<key alias="statusText">Unapproving</key>
+		<key alias="prefix">Unapproving</key>
 	</area>
 	<area alias="bulkManagerActionMove">
-		<key alias="buttonText">Move</key>
 		<key alias="finishedMessage">The selected items are moved to the selected location.</key>
 		<key alias="intro">Press 'choose' to select a new location to move the selected items to.</key>
 		<key alias="name">Move</key>
@@ -186,33 +188,56 @@
 		<key alias="name">Unpublish</key>
 		<key alias="prefix">Unpublishing</key>
 	</area>
-	<area alias="bulkManagerQueryParameters">
+	<area alias="bulkManagerFilter">
 		<key alias="actions">Actions....</key>
-		<key alias="createDateSearch">Created</key>
-		<key alias="createdBySearch">Created by</key>
+		<key alias="createDate">Created</key>
+		<key alias="updateDate">Updated</key>
 		<key alias="location">Location</key>
 		<key alias="root">Root</key>
 		<key alias="textSearch">Search for</key>
 		<key alias="documentType">Document type</key>
+		<key alias="createdBy">Created by</key>
 		<key alias="mediaType">Media type</key>
 		<key alias="memberGroup">Member group</key>
 		<key alias="memberGroupUnUsed">Only show unused items</key>
 		<key alias="memberType">Member type</key>
+		<key alias="memberApproved">Approved</key>
+		<key alias="memberLocked">Locked</key>
 		<key alias="status">Status</key>
 		<key alias="onlyRecyleBin">Only in recycle bin</key>
 		<key alias="publishState">Publish state</key>
+		<key alias="publishStatePublished">Published</key>
+		<key alias="publishStatePending">Pending</key>
+		<key alias="publishStateUnPublished">Unpublished</key>
 		<key alias="select">Select....</key>
 		<key alias="template">Template</key>
-		<key alias="updated">Updated</key>
 		<key alias="propertyData">Search in property data</key>
 		<key alias="inlcludeSelectedNode">Include selected node</key>
 		<key alias="searchLanguageProperties">Search in language properties</key>
 		<key alias="searchChildTypes">Include child document types</key>
 		<key alias="includeSelf">Include selected node</key>
 		<key alias="includeGrandChildren">Include grandchildren</key>
+		<key alias="optionTrue">True</key>
+		<key alias="optionFalse">False</key>
 	</area>
 	<area alias="bulkManagerExportDialog">
 		<key alias="name">Export</key>
-		<key alias="intro">Export items from Umbraco.</key>
+		<key alias="intro">Export items from Umbraco. All data based on criteria and the selected columns in the overview will be exported.</key>
+		<key alias="exportFormat">Export as</key>
+		<key alias="exportFormatCsv">Csv file</key>
+		<key alias="exportFormatExcel">Excel file</key>
+	</area>
+	<area alias="bulkManagerFilter">
+		<key alias="text">Text</key>
+		<key alias="location">Location</key>
+		<key alias="publishState">Publish state</key>
+	</area>
+	<area alias="bulkManagerFilterOptions">
+		<key alias="contains">Contains</key>
+		<key alias="notcontains">Not contains</key>
+		<key alias="is">Is</key>
+		<key alias="isnot">Is not</key>
+		<key alias="before">Before</key>
+		<key alias="after">After</key>
 	</area>
 </language>
