@@ -72,6 +72,7 @@
 		<key alias="saveThisUser">Only for me</key>
 		<key alias="saveThisUserDescription">When enabled this search form will only be visible for me in the tree.</key>
 		<key alias="title">Save</key>
+		<key alias="notificationSaved">Item is saved</key>
 	</area>
 	<area alias="bulkManagerActionAssignTemplate">
 		<key alias="buttonText">Assign template</key>
