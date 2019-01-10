@@ -5,7 +5,7 @@
 		<link>https://github.com/rsoeteman/bulkmanager-resources</link>
 	</creator>
 	<area alias="bulkManagerGeneral">
-		<key alias="title">BulkManager V2</key>
+		<key alias="title">BulkManager V2 Beta</key>
 		<key alias="treeTitle">Manage</key>
 		<key alias="proEditionMessage">This is the free edition of BulkManager which is limited in functionality.<p>Check out <a href="http://soetemansoftware.nl/bulkmanager/features.aspx" target="new">our website</a> for all the differences or <a href="http://soetemansoftware.nl/bulkmanager/purchase.aspx" target="new">buy the pro version</a> today!</p>
 		</key>
