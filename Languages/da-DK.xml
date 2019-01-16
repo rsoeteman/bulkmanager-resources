@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
-<creator>
+<language alias="da" intName="Danish" localName="dansk" lcid="6" culture="da-DK">
+	<creator>
 		<name>Soeteman software</name>
 		<link>https://github.com/rsoeteman/bulkmanager-resources</link>
 	</creator>
 	<area alias="bulkManagerGeneral">
-		<key alias="title">BulkManager V2</key>
+		<key alias="title">BulkManager V2 Beta</key>
 		<key alias="treeTitle">Manage</key>
 		<key alias="proEditionMessage">This is the free edition of BulkManager which is limited in functionality.<p>Check out <a href="http://soetemansoftware.nl/bulkmanager/features.aspx" target="new">our website</a> for all the differences or <a href="http://soetemansoftware.nl/bulkmanager/purchase.aspx" target="new">buy the pro version</a> today!</p>
 		</key>
@@ -220,6 +220,7 @@
 		<key alias="includeGrandChildren">Include grandchildren</key>
 		<key alias="optionTrue">True</key>
 		<key alias="optionFalse">False</key>
+		<key alias="level">Level</key>
 	</area>
 	<area alias="bulkManagerExportDialog">
 		<key alias="name">Export</key>
@@ -240,5 +241,7 @@
 		<key alias="isnot">Is not</key>
 		<key alias="before">Before</key>
 		<key alias="after">After</key>
+		<key alias="greaterthan">Greater than</key>
+		<key alias="lessthan">Less than</key>
 	</area>
 </language>

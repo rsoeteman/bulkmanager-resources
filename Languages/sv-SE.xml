@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+<language alias="sv" intName="Swedish" localName="Svenska" lcid="29" culture="sv-SE">
 	<creator>
 		<name>Soeteman software</name>
 		<link>https://github.com/rsoeteman/bulkmanager-resources</link>
@@ -220,6 +220,7 @@
 		<key alias="includeGrandChildren">Include grandchildren</key>
 		<key alias="optionTrue">True</key>
 		<key alias="optionFalse">False</key>
+		<key alias="level">Level</key>
 	</area>
 	<area alias="bulkManagerExportDialog">
 		<key alias="name">Export</key>
@@ -240,5 +241,7 @@
 		<key alias="isnot">Is not</key>
 		<key alias="before">Before</key>
 		<key alias="after">After</key>
+		<key alias="greaterthan">Greater than</key>
+		<key alias="lessthan">Less than</key>
 	</area>
 </language>
