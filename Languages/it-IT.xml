@@ -94,7 +94,7 @@
 		<key alias="documentType">New document type</key>
 		<key alias="selectTemplate">Template</key>
 		<key alias="sourceProperty">Source property</key>
-		<key alias="statusPrefix">Changing document type </key>
+		<key alias="statusPrefix">Changing document type for </key>
 		<key alias="targetProperty">Map to</key>
 		<key alias="validationError">Select a new document type first.</key>
 		<key alias="currentProperty">Current property</key>
