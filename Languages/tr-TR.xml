@@ -113,6 +113,15 @@
 		<key alias="statusPrefix">Copying</key>
 		<key alias="relateToOriginal">Relate copied items to original</key>
 	</area>
+	<area alias="bulkManagerScheduledPublish">
+		<key alias="intro">Specify a publish or unpublish date</key>
+		<key alias="finishedMessage">Scheduled publish or unpublish date is set</key>
+		<key alias="name">Scheduled publish</key>
+		<key alias="publishAt">Publish at</key>
+		<key alias="unpublishAt">Unpublish at</key>
+		<key alias="publishatDescription">Leave blank when not needed</key>
+		<key alias="statusPrefix">Scheduling (un)publish for </key>
+	</area>
 	<area alias="bulkManagerActionDelete">
 		<key alias="name">Delete</key>
 		<key alias="introWithoutPermanent">Click 'ok' to delete the selected items.</key>
